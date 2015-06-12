@@ -6,7 +6,7 @@ A basic config for testing [stunnel](https://www.stunnel.org/index.html) on Linu
 
 Install stunnel like this:
 
-    sudo apt-get install stunnel4`
+    sudo apt-get install stunnel4
 
 #Testing stunnel with this repository
 
