@@ -4,9 +4,12 @@ A basic config for testing [stunnel](https://www.stunnel.org/index.html) on Linu
 
 #Currently a placeholder, watch this space.
 
-#Installing stunnel
+#Prerequisite - installing stunnel
 
 Install stunnel like this:
 
 `sudo apt-get install stunnel4`
 
+#Testing stunnel with this repository - work in progress
+
+To test your installation, we assume that you have a working webserver on port 80, but nothing doing https on port 443.  Then you can test https support.
