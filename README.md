@@ -6,7 +6,7 @@ A basic config for testing [stunnel](https://www.stunnel.org/index.html) on Linu
 
 Install stunnel like this:
 
-`sudo apt-get install stunnel4`
+    sudo apt-get install stunnel4`
 
 #Testing stunnel with this repository
 
@@ -18,3 +18,9 @@ To test your installation, we assume that you have a working webserver on port 8
     sudo stunnel4 stunnel4.config
 
 That will start stunnel using a self-signed certificate and forward https traffic to port 80.
+
+#Stopping stunnel
+
+If you're testing stunnel and you want to shut it down, you can do this:
+
+    sudo killall stunnel
