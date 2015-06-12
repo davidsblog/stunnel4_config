@@ -2,8 +2,6 @@
 
 A basic config for testing [stunnel](https://www.stunnel.org/index.html) on Linux.
 
-#Currently a placeholder, watch this space.
-
 #Prerequisite - installing stunnel
 
 Install stunnel like this:
