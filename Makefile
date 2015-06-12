@@ -9,5 +9,5 @@ $(CERT): $(CERT)
 .PHONY: clean
 
 clean:
-	rm -f stunnel.*
+	rm -f stunnel.key stunnel.pem stunnel.req ca.*
 	
