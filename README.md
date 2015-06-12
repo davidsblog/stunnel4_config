@@ -16,6 +16,6 @@ To test your installation, we assume that you have a working webserver on port 8
 
     git clone https://github.com/davidsblog/stunnel4_config
     cd stunnel4_config
-    ./make_cert.sh
+    ./make_cert.sh localhost
     sudo stunnel4 stunnel.config
 
