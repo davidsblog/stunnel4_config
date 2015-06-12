@@ -14,7 +14,8 @@ Install stunnel like this:
 
 To test your installation, we assume that you have a working webserver on port 80, but nothing doing https on port 443.  Then you can test https support.
 
-`git clone https://github.com/davidsblog/stunnel4_config
-cd stunnel4_config
-./make_cert.sh
-sudo stunnel4 stunnel.config`
+    git clone https://github.com/davidsblog/stunnel4_config
+    cd stunnel4_config
+    ./make_cert.sh
+    sudo stunnel4 stunnel.config
+
