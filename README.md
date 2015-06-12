@@ -23,4 +23,4 @@ That will start stunnel using a self-signed certificate and forward https traffi
 
 If you're testing stunnel and you want to shut it down, you can do this:
 
-    sudo killall stunnel
+    sudo killall stunnel4
