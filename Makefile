@@ -1,7 +1,7 @@
 CERT=stunnel.pem
 
 run: $(CERT)
-	stunnel4 stunnel.config
+	stunnel4 stunnel4.config
 
 $(CERT): $(CERT)
 	./make_cert.sh localhost
@@ -9,5 +9,5 @@ $(CERT): $(CERT)
 .PHONY: clean
 
 clean:
-	rm -f stunnel.key stunnel.pem stunnel.req stunnel.crt stunnel.log ca.*
+	rm -f stunnel.key stunnel.* ca.*
 	
