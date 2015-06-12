@@ -10,7 +10,7 @@ Install stunnel like this:
 
 `sudo apt-get install stunnel4`
 
-#Testing stunnel with this repository - work in progress
+#Testing stunnel with this repository
 
 To test your installation, we assume that you have a working webserver on port 80, but nothing doing https on port 443.  Then you can test https support.
 
@@ -19,3 +19,4 @@ To test your installation, we assume that you have a working webserver on port 8
     ./make_cert.sh localhost
     sudo stunnel4 stunnel.config
 
+This will start stunnel using a self-signed certificate and forward https traffic to port 80.
